@@ -16,7 +16,7 @@
 
 
     <!-- 定义注册中心地址 -->
-    <dubbo:registry address="zookeeper://43.134.185.77:2181"/>
+    <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
 
     <!-- 定义订阅信息，Dubbo 会在 Spring Context 中创建对应的 bean -->
     <dubbo:reference id="userService" interface="com.offer.oj.platform.service.UserService"/>
